@@ -9,7 +9,7 @@ model = IrisModel()
 
 @app.get('/')
 def home():
-    return {'message':'Welcome, from github'}
+    return {'message':'Welcome, from github 2'}
 
 @app.get('/predict')
 def predict_species(iris: IrisSpecies):
